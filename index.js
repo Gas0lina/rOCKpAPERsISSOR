@@ -1,8 +1,8 @@
 //geting user input
-let userChoice = prompt("Rock Paper Sissor");
+let userChoice = prompt("Rock Paper Scissor");
 
 // array for selecting
-const choice =["rock","paper","sissor"];
+const choice =["rock","paper","scissor"];
 
 // generating random number
 
@@ -16,7 +16,7 @@ if(userChoice){
             if(compChoice==="paper"){
                 alert("You lost! HAHAHA")
             }
-            else if(compChoice==="sissor"){
+            else if(compChoice==="scissor"){
                 alert("huh, U just got lucky");
             }
             else{
@@ -24,7 +24,7 @@ if(userChoice){
             }
         }
         if(userChoice==="paper"){
-            if(compChoice==="sissor"){
+            if(compChoice==="scissor"){
                 alert("You lost! HAHAHA")
             }
             else if(compChoice==="rock"){
@@ -33,7 +33,7 @@ if(userChoice){
             else{
                 alert("Stop copying me!!");
             }
-            if(userChoice==="sissor"){
+            if(userChoice==="scissor"){
                 if(compChoice==="rock"){
                     alert("You lost! HAHAHA")
                 }
@@ -48,7 +48,7 @@ if(userChoice){
         document.querySelector("h1").innerText = compChoice;
     }
     else{
-        alert("Enter Rock, Paper or Siccors");
+        alert("Enter Rock, Paper or Scissors");
     }
 }
 else{
