@@ -1,2 +1,2 @@
 # rOCKpAPERsCISSOR
-Game of rock paper sissor using JavaScript(period).
+Game of rock paper scissor using JavaScript(period).
